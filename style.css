@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: #f7f7f7;
+    color: #222;
+}
+header {
+    background: #2d3e50;
+    color: #fff;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+}
+nav {
+    background: #1a2533;
+    padding: 0.5rem 0;
+}
+nav .container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #ffb347;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+h1 {
+    margin-bottom: 0.2em;
+}
+h2 {
+    color: #2d3e50;
+    margin-top: 2em;
+}
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.skills-list li {
+    background: #e3eaf2;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    font-size: 1em;
+}
+.project {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 1em;
+    margin-bottom: 1em;
+}
+footer {
+    background: #2d3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem 0.5rem;
+    }
+    nav .container {
+        gap: 1rem;
+    }
+    .skills-list {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
