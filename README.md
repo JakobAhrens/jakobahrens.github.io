@@ -7,13 +7,12 @@ This repository contains the source code for my personal website, built to highl
 
 ## Features
 - Responsive design for all devices
-- Project portfolio with detailed descriptions
-- Contact form
 - Clean and modern UI
 - Built with HTML, CSS, and JavaScript (React integration planned)
+- Deploy updates automatically with GitHub Actions
 
 ## Planned Improvements
+- Project portfolio with detailed descriptions
+- Contact form
 - Migrate to React for a more dynamic experience
-- Add a blog section
 - Integrate a dark mode toggle
-- Deploy updates automatically with GitHub Actions
